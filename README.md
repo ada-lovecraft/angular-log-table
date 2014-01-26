@@ -1,6 +1,10 @@
 #angular-log-table
 Add the ability to use $log.table to display object arrays in the Chrome developer tools console
 
+### Install
+Either copy ngLogTable.js to your project, or if you're doing front-end right, use bower:
+    $ bower install --save angular-log-table
+
 ###Usage
 
 First, add *ngLogTable* to your module's dependencies
