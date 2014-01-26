@@ -1,0 +1,28 @@
+{
+  "name": "angular-log-table",
+  "version": "0.0.1",
+  "authors": [
+    "jdowell <jeremy@codevinsky.com>"
+  ],
+  "description": "Add a $log.table method to $logProvider",
+  "main": "ngLogTable.js",
+  "keywords": [
+    "angular",
+    "log",
+    "table",
+    "console"
+  ],
+  "license": "WTFPL",
+  "homepage": "http://github.com/codevinsky",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1"
+  }
+}
