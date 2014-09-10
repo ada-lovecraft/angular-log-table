@@ -1,11 +1,11 @@
 {
   "name": "angular-log-table",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "jdowell <jeremy@codevinsky.com>"
   ],
   "description": "Add a $log.table method to $logProvider",
-  "main": "ngLogTable.js",
+  "main": "angular-log-table.js",
   "keywords": [
     "angular",
     "log",

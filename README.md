@@ -8,9 +8,9 @@ Either copy ngLogTable.js to your project, or if you're doing front-end right, u
 
 ###Usage
 
-First, add *ngLogTable* to your module's dependencies
+First, add *angular-log-table* to your module's dependencies
 
-    angular.module('myApp', ['ngLogTable'])
+    angular.module('myApp', ['angular-log-table'])
 
 Next, call $log.table from your controller with an array of objects:
 
@@ -33,3 +33,7 @@ If you'd don't want all of the fields displayed, you can pluck the required fiel
 
     $log.table($scope.statistics, ['firstName', 'lastName']);
 
+### Update notes:
+- **0.0.2**
+    -  renamed module to angular-log-table to adhere to AngularJS best practices.
+        - **NB:** after updating to 0.0.2 please modify your app's dependency definition to `angular-log-table`, and make sure that `angular-log-table.js` is included in your app.
